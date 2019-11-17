@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(38, 38, 42);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+}
+
+#scoreboard-in {
+   height: 5em;
+   width: 15em;
+   border: solid 5px white;
+   border-radius: 10px;
+   margin-top: 1em;
+   padding-bottom: 0.5em;
+   position: relative
+}
+
+#table {
+    font-size: 4em;
+    display: inline-block;
+}
+
+.labels {
+    background-color: rgb(38, 38, 42);
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+#player {
+    position: absolute;
+    top: 35%;
+    left: -20%;
+}
+
+#computer {
+    position: absolute;
+    top: 35%;
+    right: -32%;
+}
+
+#status-div {
+    display: flex;
+    justify-content: center;
+}
+
+#status {
+    height: 4em;
+    width: 15em;
+    margin-top: 2em;
+    font-size: 1.5em; 
+}
+
+#hand {
+    display: flex;
+    justify-content: center;
+}
+
+#hands {
+    display: flex;
+    width: 20em;
+    justify-content: space-around;
+    margin-top: 2em;
+    padding: 2em;
+    left: 40%;
+    top: 35%;
+}
+
+.hand {
+    font-size: 50px;
+    border-radius: 50%;
+    border: white;
+    padding: 0.25em;
+}
+
+.hand:active {
+    background-color: rgb(110, 110, 121);
+}
